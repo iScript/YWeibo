@@ -43,6 +43,9 @@
 		191985551CC759EA00AA5623 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191985541CC759EA00AA5623 /* User.swift */; };
 		191985571CC7612800AA5623 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191985561CC7612800AA5623 /* UILabelExt.swift */; };
 		191985591CC773A100AA5623 /* NSDateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191985581CC773A100AA5623 /* NSDateExt.swift */; };
+		1919855B1CC863F300AA5623 /* StatusBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919855A1CC863F300AA5623 /* StatusBottomView.swift */; };
+		1919855D1CC864A800AA5623 /* StatusTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919855C1CC864A800AA5623 /* StatusTopView.swift */; };
+		1919855F1CC869D900AA5623 /* StatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919855E1CC869D900AA5623 /* StatusPictureView.swift */; };
 		E8B47D50A851807D2DDDE2F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940559B19CA81840ED4725AD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +110,9 @@
 		191985541CC759EA00AA5623 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		191985561CC7612800AA5623 /* UILabelExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
 		191985581CC773A100AA5623 /* NSDateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExt.swift; sourceTree = "<group>"; };
+		1919855A1CC863F300AA5623 /* StatusBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBottomView.swift; sourceTree = "<group>"; };
+		1919855C1CC864A800AA5623 /* StatusTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTopView.swift; sourceTree = "<group>"; };
+		1919855E1CC869D900AA5623 /* StatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusPictureView.swift; sourceTree = "<group>"; };
 		940559B19CA81840ED4725AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF30FA1D408C2A790C8A408E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EA79665BDD904C44945D1A9C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -216,6 +222,9 @@
 			children = (
 				1919852E1CC4B81E00AA5623 /* TitleButton.swift */,
 				191985521CC757AE00AA5623 /* StatusTableViewCell.swift */,
+				1919855A1CC863F300AA5623 /* StatusBottomView.swift */,
+				1919855C1CC864A800AA5623 /* StatusTopView.swift */,
+				1919855E1CC869D900AA5623 /* StatusPictureView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -489,12 +498,14 @@
 				191985021CC4894B00AA5623 /* TabbarViewController.swift in Sources */,
 				191985531CC757AE00AA5623 /* StatusTableViewCell.swift in Sources */,
 				191985291CC4B19500AA5623 /* ViewController+SnapKit.swift in Sources */,
+				1919855B1CC863F300AA5623 /* StatusBottomView.swift in Sources */,
 				191985331CC4CACB00AA5623 /* OAuthViewController.swift in Sources */,
 				1919852F1CC4B81E00AA5623 /* TitleButton.swift in Sources */,
 				1919851E1CC4B19500AA5623 /* ConstraintAttributes.swift in Sources */,
 				191985551CC759EA00AA5623 /* User.swift in Sources */,
 				191984CC1CC4857E00AA5623 /* AppDelegate.swift in Sources */,
 				191985061CC4897000AA5623 /* DiscoverViewController.swift in Sources */,
+				1919855D1CC864A800AA5623 /* StatusTopView.swift in Sources */,
 				1919852C1CC4B44100AA5623 /* UIBarButtonItemExt.swift in Sources */,
 				191985311CC4C75300AA5623 /* bridge.h in Sources */,
 				191985241CC4B19500AA5623 /* EdgeInsets.swift in Sources */,
@@ -505,6 +516,7 @@
 				1919850C1CC4AC7800AA5623 /* NullViewController.swift in Sources */,
 				191985271CC4B19500AA5623 /* SnapKit.swift in Sources */,
 				191985281CC4B19500AA5623 /* View+SnapKit.swift in Sources */,
+				1919855F1CC869D900AA5623 /* StatusPictureView.swift in Sources */,
 				191985001CC4893700AA5623 /* HomeViewController.swift in Sources */,
 				191985381CC5C22200AA5623 /* UserAccount.swift in Sources */,
 				191985571CC7612800AA5623 /* UILabelExt.swift in Sources */,
