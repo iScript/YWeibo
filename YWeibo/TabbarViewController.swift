@@ -28,7 +28,9 @@ class TabbarViewController: UITabBarController {
      按钮点击事件的调用是由 运行循环 监听并且以消息机制传递的，因此，按钮监听函数不能设置为 private
      */
     func composeBtnClick(){
-        print(#function)
+        let composeVC = ComposeViewController()
+        let nav = UINavigationController(rootViewController: composeVC)
+        presentViewController(nav, animated: true, completion: nil)
     }
     
     // MARK: - 内部控制方法

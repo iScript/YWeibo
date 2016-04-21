@@ -46,6 +46,7 @@
 		1919855B1CC863F300AA5623 /* StatusBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919855A1CC863F300AA5623 /* StatusBottomView.swift */; };
 		1919855D1CC864A800AA5623 /* StatusTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919855C1CC864A800AA5623 /* StatusTopView.swift */; };
 		1919855F1CC869D900AA5623 /* StatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919855E1CC869D900AA5623 /* StatusPictureView.swift */; };
+		191985611CC87B6600AA5623 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191985601CC87B6600AA5623 /* ComposeViewController.swift */; };
 		E8B47D50A851807D2DDDE2F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940559B19CA81840ED4725AD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,7 @@
 		1919855A1CC863F300AA5623 /* StatusBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBottomView.swift; sourceTree = "<group>"; };
 		1919855C1CC864A800AA5623 /* StatusTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTopView.swift; sourceTree = "<group>"; };
 		1919855E1CC869D900AA5623 /* StatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusPictureView.swift; sourceTree = "<group>"; };
+		191985601CC87B6600AA5623 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		940559B19CA81840ED4725AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF30FA1D408C2A790C8A408E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EA79665BDD904C44945D1A9C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				191985071CC4897C00AA5623 /* ProfileViewController.swift */,
 				191985321CC4CACB00AA5623 /* OAuthViewController.swift */,
 				1919850B1CC4AC7800AA5623 /* NullViewController.swift */,
+				191985601CC87B6600AA5623 /* ComposeViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				191985591CC773A100AA5623 /* NSDateExt.swift in Sources */,
 				191985231CC4B19500AA5623 /* Debugging.swift in Sources */,
 				191985511CC7516000AA5623 /* Status.swift in Sources */,
+				191985611CC87B6600AA5623 /* ComposeViewController.swift in Sources */,
 				1919850C1CC4AC7800AA5623 /* NullViewController.swift in Sources */,
 				191985271CC4B19500AA5623 /* SnapKit.swift in Sources */,
 				191985281CC4B19500AA5623 /* View+SnapKit.swift in Sources */,
